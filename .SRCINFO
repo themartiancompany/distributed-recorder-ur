@@ -1,8 +1,8 @@
-pkgbase = remote-encoder
+pkgbase = distributed-recorder
 	pkgdesc = Distributed recorder.
 	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1
 	pkgrel = 1
-	url = https://github.com/themartiancompany/remote-encoder
+	url = https://github.com/themartiancompany/distributed-recorder
 	arch = any
 	license = AGPL3
 	checkdepends = shellcheck
@@ -14,8 +14,8 @@ pkgbase = remote-encoder
 	optdepends = android-recorder: for recording from this device screen.
 	optdepends = android-camera-recorder: for recording from this device camera
 	optdepends = android-remote-camera-recorder: for recording from the camera of another device
-	source = remote-encoder-26eb06e83d7bab2c558e306f056776c7baf17a04.zip::https://github.com/themartiancompany/remote-encoder/archive/26eb06e83d7bab2c558e306f056776c7baf17a04.zip
+	source = distributed-recorder-eef5daf346c771cb5cf253e72d4603111ceadd0e.zip::https://github.com/themartiancompany/distributed-recorder/archive/eef5daf346c771cb5cf253e72d4603111ceadd0e.zip
 	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
-	sha256sums = 068f3750f15bb9167b3c07e4e1563ecd986d1227608b13804a7ba984565b4058
+	sha256sums = 0182a5f8cc48e86c82a436b88e1b1e9afed0e94252297f696522206d7a1449ca
 
-pkgname = remote-encoder
+pkgname = distributed-recorder

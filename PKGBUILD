@@ -5,9 +5,9 @@
 
 _offline="false"
 _git="false"
-pkgname=remote-encoder
+pkgname=distributed-recorder
 pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1
-_commit="26eb06e83d7bab2c558e306f056776c7baf17a04"
+_commit="eef5daf346c771cb5cf253e72d4603111ceadd0e"
 pkgrel=1
 _pkgdesc=(
   "Distributed recorder."
@@ -73,7 +73,7 @@ _tarname="${pkgname}-${_tag}"
     _sum="d4f4179c6e4ce1702c5fe6af132669e8ec4d0378428f69518f2926b969663a91"
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="068f3750f15bb9167b3c07e4e1563ecd986d1227608b13804a7ba984565b4058"
+    _sum="0182a5f8cc48e86c82a436b88e1b1e9afed0e94252297f696522206d7a1449ca"
   fi && \
     source+=(
       "${_tar}"
